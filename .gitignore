@@ -1,0 +1,24 @@
+# Skip local configs and temp files
+*.ini
+cfg.ini
+*.log
+*.tmp
+*.bak
+*.dmp
+
+# Publish/self-contained payloads and binaries
+publish/
+*.exe
+*.dll
+*.zip
+*.7z
+*.tar.gz
+
+# Debug symbols / metadata
+*.pdb
+*.mdb
+*.xml
+
+# Temporary extracted folders
+xray_tmp/
+vless_tmp/
